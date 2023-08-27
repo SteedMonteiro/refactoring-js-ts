@@ -1,0 +1,26 @@
+{
+  "name": "my-ts-refactor-tool",
+  "version": "1.0.0",
+  "description": "Automated TypeScript refactoring tool",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "keywords": ["TypeScript", "Refactoring", "AST", "jscodeshift", "ESLint"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "^latest_version",
+    "eslint": "^latest_version",
+    "typescript": "^latest_version",
+    "ts-node": "^latest_version"
+  },
+  "devDependencies": {
+    "@types/node": "^latest_version",
+    "jest": "^latest_version",
+    "@typescript-eslint/parser": "^latest_version",
+    "@typescript-eslint/eslint-plugin": "^latest_version"
+  }
+}
