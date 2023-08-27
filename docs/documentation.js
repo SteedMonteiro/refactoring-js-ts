@@ -1,4 +1,4 @@
-```javascript
+
 /**
  * This module is responsible for generating documentation for the refactoring process.
  * It details the changes made, the reasons for each change, and guidelines for future refactoring.
@@ -41,4 +41,3 @@ ${guidelines}
 module.exports = {
     updateDocumentation
 };
-```

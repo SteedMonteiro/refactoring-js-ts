@@ -1,4 +1,4 @@
-```javascript
+
 const fs = require('fs');
 const path = require('path');
 
@@ -25,4 +25,3 @@ function sampleCodebase() {
 
 // Run the code sampling
 sampleCodebase();
-```

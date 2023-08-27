@@ -1,4 +1,4 @@
-```javascript
+
 const fs = require('fs');
 const path = require('path');
 const { analyzeCodebase } = require('./source_code_analysis');
@@ -35,4 +35,3 @@ function maintainScript() {
 module.exports = {
   maintainScript
 };
-```

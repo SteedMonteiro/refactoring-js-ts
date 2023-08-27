@@ -1,4 +1,4 @@
-```javascript
+
 const fs = require('fs');
 const path = require('path');
 const ESLint = require('eslint').ESLint;
@@ -39,4 +39,3 @@ const configureESLintRules = async () => {
 configureESLintRules().catch((error) => {
   console.error(error);
 });
-```

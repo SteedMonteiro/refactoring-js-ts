@@ -1,4 +1,4 @@
-```javascript
+
 const jscodeshift = require('jscodeshift');
 const projectSpecifications = require('./project_specifications');
 
@@ -25,4 +25,3 @@ function refactorCode(ast, fileInfo) {
 module.exports = {
   refactorCode
 };
-```

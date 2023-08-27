@@ -1,4 +1,4 @@
-```javascript
+
 // Import necessary libraries
 const jscodeshift = require('jscodeshift');
 const eslint = require('eslint');
@@ -38,4 +38,3 @@ function evaluateTechnologies() {
 
 // Execute the function
 evaluateTechnologies();
-```

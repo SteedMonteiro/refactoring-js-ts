@@ -1,4 +1,4 @@
-```javascript
+
 const assert = require('assert');
 const { analyzeCodebase, detectLargeComponents, refactorCode } = require('../src/refactoring_implementation.js');
 
@@ -27,4 +27,3 @@ describe('Unit Tests for Refactoring Tool', function() {
   });
 
 });
-```

@@ -1,4 +1,4 @@
-```javascript
+
 // src/project_specifications.js
 
 // Define the project-specific criteria for refactoring
@@ -9,4 +9,3 @@ const projectSpecifications = {
 };
 
 module.exports = projectSpecifications;
-```

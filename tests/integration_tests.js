@@ -1,4 +1,4 @@
-```javascript
+
 const assert = require('assert');
 const { analyzeCodebase, refactorCode } = require('../src/source_code_analysis.js');
 const { detectLargeComponents } = require('../src/detection_large_functions_components.js');
@@ -19,4 +19,3 @@ describe('Integration Tests', function() {
     assert(refactoredCode.every(file => file.functions.every(func => func.lines.length <= projectSpecifications.maxLinesPerFunction)));
   });
 });
-```

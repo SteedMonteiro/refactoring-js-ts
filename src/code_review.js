@@ -1,4 +1,4 @@
-```javascript
+
 const fs = require('fs');
 const path = require('path');
 const { ESLint } = require('eslint');
@@ -26,4 +26,3 @@ reviewCode().catch((error) => {
   process.exitCode = 1;
   console.error(error);
 });
-```

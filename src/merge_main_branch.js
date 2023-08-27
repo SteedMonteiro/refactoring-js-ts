@@ -1,4 +1,4 @@
-```javascript
+
 const { exec } = require('child_process');
 
 function mergeIntoMainBranch() {
@@ -28,4 +28,3 @@ function mergeIntoMainBranch() {
 }
 
 mergeIntoMainBranch();
-```

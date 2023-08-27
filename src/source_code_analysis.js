@@ -1,4 +1,4 @@
-```javascript
+
 const fs = require('fs');
 const path = require('path');
 const jscodeshift = require('jscodeshift');
@@ -40,4 +40,3 @@ function analyzeFile(filePath) {
 module.exports = {
     analyzeCodebase
 };
-```
