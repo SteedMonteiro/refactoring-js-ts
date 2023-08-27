@@ -1,14 +1,21 @@
-```typescript
+
 import { ESLint } from "eslint";
+import * as fs from 'fs';
 
 export class QualityChecker {
   private eslint: ESLint;
 
   constructor() {
+    if (!fs.existsSync('../config/eslint-config.json')) {
+      console.error("ESLint config file does not exist.");
+      process.exit(1);
+    }
+    
     this.eslint = new ESLint({
       overrideConfigFile: "../config/eslint-config.json",
     });
   }
+
 
   public async checkCodeQuality(filePath: string): Promise<void> {
     const results = await this.eslint.lintFiles(filePath);
@@ -21,4 +28,3 @@ export class QualityChecker {
     console.log(resultText);
   }
 }
-```

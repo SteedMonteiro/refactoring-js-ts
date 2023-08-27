@@ -1,4 +1,4 @@
-```typescript
+
 import * as jest from 'jest';
 import { analyze } from './analyzer';
 import { refactor } from './refactorer';
@@ -41,4 +41,3 @@ export function runTests() {
 if (require.main === module) {
   runTests();
 }
-```

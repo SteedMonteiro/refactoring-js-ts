@@ -12,15 +12,15 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "jscodeshift": "^latest_version",
-    "eslint": "^latest_version",
-    "typescript": "^latest_version",
-    "ts-node": "^latest_version"
+    "jscodeshift": "^0.11.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.2",
+    "ts-node": "^10.2.1"
   },
   "devDependencies": {
-    "@types/node": "^latest_version",
-    "jest": "^latest_version",
-    "@typescript-eslint/parser": "^latest_version",
-    "@typescript-eslint/eslint-plugin": "^latest_version"
+    "@types/node": "^16.7.1",
+    "jest": "^27.1.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.1"
   }
 }
